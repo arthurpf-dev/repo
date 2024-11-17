@@ -1,0 +1,37 @@
+            - name: Safe download workflow artifact
+  # You may pin to the exact commit or the version.
+  # uses: Legit-Labs/action-download-artifact@59e00ed697336cebfce47ebbcb4de08af1625ef7
+  uses: Legit-Labs/action-download-artifact@v2.18.0
+  with:
+    # GitHub token
+    github_token: # optional, default is ${{github.token}}
+    # Workflow name
+    workflow: 
+    # Wanted status or conclusion to search for in recent runs
+
+https://docs.github.com/en/free-pro-team@latest/rest/reference/actions#list-workflow-runs
+
+    workflow_conclusion: # optional, default is success
+    # Repository name with owner (like actions/checkout)
+    repo: # optional, default is ${{github.repository}}
+    # Pull request number
+    pr: # optional
+    # Commit hash
+    commit: # optional
+    # Branch name
+    branch: # optional
+    # Event type
+    event: # optional
+    # Workflow run id
+    run_id: # optional
+    # Workflow run number
+    run_number: # optional
+    # Artifact name (download all artifacts if not specified)
+    name: # optional
+    # Where to unpack the artifact
+    path: # optional, default is ./artifacts
+    # Check workflow run whether it has an artifact
+    check_artifacts: # optional
+    # Search workflow runs for artifact with specified name
+    search_artifacts: # optional
+          
