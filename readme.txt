@@ -1,0 +1,1 @@
+https://sourceforge.net/projects/mystic-gsi-updates/files/Pixel/Pixel-cheetah-15-12620009-AB-20241112-MysticGSI.zip/download
